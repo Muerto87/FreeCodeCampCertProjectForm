@@ -15,8 +15,8 @@ h1, p {
     text-align: center;
 }
 form {
-    padding: 2.5rem;
-    background-color: rgba(160, 89, 236, 80);
+    padding: 2.0rem;
+    background-color: rgba(160, 89, 236, 90);
     max-width: 500px;
     min-width: 300px;
     margin: 0, auto;
@@ -31,7 +31,6 @@ fieldset {
 }
 label {
     display: block;
-    
     font-size: 1.2rem;
 }
 .survey-form {
@@ -49,8 +48,13 @@ input[type="checkbox"] {
 input[type="radio"] {
     display: inline-block;
 }
+.wide {
+    width: 52vh;
+    margin: auto;
+}
 textarea {
     display: block;
+    width: 45vh;
 }
 select {
     display: block;
@@ -60,4 +64,9 @@ select {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.alignment-left {
+    margin-left: 0px;
+    
+    
 }
