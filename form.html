@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1 id="title">FreeCodeCamp Form Certification Project</h1>
+        <p id="description">This is my form for certification in FreeCodeCamp projects</p>
+        <form id="survey-form"> 
+        <fieldset>
+            <label for="name" id="name-label">Enter Your Name: <input id="name" type="text" required placeholder="Enter Your first name" ></label>
+            <label for="email" id="email-label">Enter Your email: <input id="email" type="email" required placeholder="enter you email adress"></label>
+            <label for="number" id="number-label">Enter your age: <input id="number" type="number" max="120" min="18" placeholder="enter you age"></label>
+        </fieldset>
+        <fieldset>
+            <label for="dropdown">How did you hear about us? (select one option)
+                <select id="dropdown" name="dropdown">
+                    <option value="">(select one)</option>
+                    <option value="1">from a friend</option>
+                    <option value="2">by the coding forums</option>
+                    <option value="3">other ways...</option>
+                </select>
+            </label>
+            <P>How long do you code?</P>
+        <fieldset>
+            <label>Coding less than a year <input name="coding-time" id="coding-time" type="radio" value="1"/></label>
+            <label>Coding for more than year <input name="coding-time" id="coding-time" type="radio" value="2"/></label>
+        </fieldset>
+            <p>Are you profesional coder or a hobbist?</p>
+        <fieldset>
+            <label>I code for fun! <input name="ocupancy" id="ocupancy" type="radio" value="1"/></label>
+            <label>I am profesional coder <input name="ocupancy" id="ocupancy" type="radio" value="2"/></label>
+        </fieldset>
+        <fieldset>  
+        <p>Chose coding languages you would like to learn</p>
+            <label for="html">
+                <input id="html" name="html" type="checkbox" value="1"/> HTML
+            </label>
+            <label for="css">
+                <input id="css" name="css" type="checkbox" value="2"/> CSS
+            </label>
+            <label for="python">
+                <input id="python" name="python" type="checkbox" value="3"/> Python
+            </label>
+            <label for="java-script">
+                <input id="java-script" name="jave-script" type="checkbox" value="4"/> JavaScript
+            </label>
+            <label for="java">
+                <input id="java" name="java" type="checkbox" value="5"/> Java
+            </label>
+            <label for="other">
+                <input id="other" name="other" type="checkbox" value="6"/> other
+            </label>
+        </fieldset>
+        <fieldset>
+            <label for="review">Do you have ony thoughts what to change in FreeCodeCamp?
+                <textarea id="review" name="review" rows="5" cols="40"></textarea>
+            </label>
+            <input type="submit" value="submit" id="submit"/>
+        </fieldset>
+        </form>
+
+    </body>
+</html>
