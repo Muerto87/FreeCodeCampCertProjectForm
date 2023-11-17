@@ -25,7 +25,7 @@ form {
 }
 fieldset {
    
-    background-color: #462766;
+    background-color: #7c46b3;
     border: none;
    
 }
@@ -49,7 +49,7 @@ input[type="radio"] {
     display: inline-block;
 }
 .wide {
-    width: 52vh;
+    width: 49vh;
     margin: auto;
 }
 textarea {
